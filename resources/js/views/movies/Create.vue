@@ -8,7 +8,8 @@
 
     <v-select
       :items="genreOptions"
-      label="Genre"
+      label="Genre(s)"
+      :multiple="true"
       v-model="genre"></v-select>
 
     <v-menu
